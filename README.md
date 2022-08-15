@@ -11,10 +11,14 @@ vector, **w**, where z is the so-called net input 𝑧 = 𝑤1𝑥1 + 𝑤2𝑥2
 The negative threshold is or weight is also called bias that is used with x=1.This is also called the bias unit.
 
 The following steps are followed:
+
 -intitialise the weights to random numbers or 0
+
 -for each training example:
-  -Compute output
-  -update weights
+
+ -Compute output
+ 
+ -update weights
 
 
 

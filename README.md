@@ -6,4 +6,15 @@ The perceptron classifier uses a **unit step function** to create a line that se
 
 We can then define a decision function (𝜙(𝑧)) that
 takes a linear combination of certain input values, **x**, and a corresponding weight
-vector, **w**, where z is the so-called net input 𝑧 = 𝑤1𝑥1 + 𝑤2𝑥2 +. . . 
+vector, **w**, where z is the so-called net input 𝑧 = 𝑤1𝑥1 + 𝑤2𝑥2 +. . . .. This is compared with the threshhold value to classify the data points into either class.
+
+The negative threshold is or weight is also called bias that is used with x=1.This is also called the bias unit.
+
+The following steps are followed:
+-intitialise the weights to random numbers or 0
+-for each training example:
+  -Compute output
+  -update weights
+
+
+

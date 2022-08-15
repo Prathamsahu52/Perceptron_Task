@@ -19,6 +19,13 @@ The following steps are followed:
  -Compute output
  
  -update weights
+ 
+ 1. Intitialise the weights to random numbers or 0
+ 2. For each training example:
+   - Compute the predicted output
+   - Update the weights
+     
+ 
 
 
 
